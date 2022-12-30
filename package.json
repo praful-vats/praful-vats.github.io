@@ -1,11 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-<<<<<<< HEAD
   "homepage": "https://praful-vats.github.io/website/",
-=======
-  "homepage": "https://praful-vats.github.io/react-gh-pages",
->>>>>>> main
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
