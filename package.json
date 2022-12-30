@@ -47,10 +47,7 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-=======
     "@types/react-scroll-rotate": "^0.0.2",
->>>>>>> main
     "gh-pages": "^4.0.0"
   }
 }
