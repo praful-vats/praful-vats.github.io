@@ -22,7 +22,7 @@ function About() {
         <div>
             <div className="grid-container">
                 <div className="logo one">
-                    <a href="/"><img src={pro} width={50} height={50} alt="logo"/></a>
+                    <a href="/website/"><img src={pro} width={50} height={50} alt="logo"/></a>
                 </div>
                 <div className="head two">
                     PORTFOLIO
