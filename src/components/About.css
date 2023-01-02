@@ -22,6 +22,15 @@ body {
     margin-left: 20px;
   }
 
+  .hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
+
   .cont {
     font-size: 1.953125vw;
     margin-left: 10px;
