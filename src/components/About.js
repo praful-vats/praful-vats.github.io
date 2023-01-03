@@ -22,13 +22,13 @@ function About() {
         <div>
             <div className="grid-container">
                 <div className="logo one">
-                    <a href="/"><img src={pro} width={50} height={50} alt="logo"/></a>
+                <a href="/"><img src={pro} width={50} height={50} alt="logo"/></a>
                 </div>
                 <div className="head two">
                     PORTFOLIO
                 </div>
                 <div className="three wing">
-                    <a className="none" href={pdf} target="_blank" rel="noopener noreferrer">RESUME</a> &nbsp;<a title="READ RED!">CONTACT</a> &nbsp; <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats-6ab90b162/">LINKEDIN</a> 
+                    <a className="none" href={pdf} target="_blank" rel="noopener noreferrer">RESUME</a> &nbsp; <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats-6ab90b162/">LINKEDIN</a> 
                 </div>
                         
                 <div className="vl four">

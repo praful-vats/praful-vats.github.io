@@ -5,12 +5,12 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .logo {
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-left: 3.90625vw;
+    margin-top: 1.953125vw;
   }
 
   .head {
-    margin-top: 20px;
+    margin-top: 1.5625vw;
     font-size: 4.296875vw;
     text-align: center;
   }
@@ -18,8 +18,8 @@ body {
   .wing {
     /* font-size: 25px; */
     font-size:1.953125vw;
-    margin-top: 45px;
-    margin-left: 20px;
+    margin-top: 3.515625vw;
+    margin-left: 1.5625vw;
   }
 
   .hide {
@@ -33,22 +33,22 @@ body {
 
   .cont {
     font-size: 1.953125vw;
-    margin-left: 10px;
+    margin-left: 0.78125vw;
   }
 
   .vl {
-    border-left: 6px solid rgb(0, 0, 0);
+    border-left: 0.46875vw solid rgb(0, 0, 0);
     border-width: thin;
-    height: 320px;
-    margin-left: 50px;
-    margin-top: 25px;
+    height: 25vw;
+    margin-left: 3.90625vw;
+    margin-top: 1.953125vw;
     
   }
 
   .name {
     font-size: 1.953125vw;
-    margin-top: 55px;
-    margin-left: -3px;
+    margin-top: 4.296875vw;
+    /* margin-left: -3px; */
     font-weight: bold;
   }
 
@@ -81,8 +81,8 @@ body {
     text-align: center;
     /* position: relative; */
     /* margin: 200px 0 100px 0; */
-    margin: 75px 0 0 0px;
-    font-size: 20px;
+    margin: 5.859375vw 0 0 0px;
+    font-size: 1.5625vw;
     font-weight: bolder; 
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -101,8 +101,8 @@ body {
 
   .po {
     text-align: center;
-    margin-top: 30px;
-    margin-right: 50px;
+    margin-top: 2.34375vw;
+    margin-right: 3.90625vw;
 }
 }
 
