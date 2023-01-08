@@ -58,20 +58,22 @@ function About() {
             
                 <div className="cent six">
                     <div className="spin">
-                    <ReactCurvedText
-                        width={380}
-                        height={235}
-                        cx={190}
-                        cy={120}
-                        rx={100}
-                        ry={100}
-                        startOffset={4}
-                        reversed={false}
-                        text="Work in progress / site under rehabilitation and blah blah blah @#%!&*"
-                        textPathProps={{"fill": "#F40009"}}
-                    />
+                        <ReactCurvedText
+                            width={380}
+                            height={235}
+                            cx={190}
+                            cy={120}
+                            rx={100}
+                            ry={100}
+                            startOffset={4}
+                            reversed={false}
+                            text="Work in progress / site under rehabilitation and blah blah blah @#%!&*"
+                            textPathProps={{"fill": "#F40009"}}
+                        />
                     </div>
-                <div style={{color: "black", fontSize:"30px", marginTop:"78px"}}>&nbsp;&nbsp;1<span style={{color: '#f40009'}}>.</span>9<span style={{color: '#f40009'}}>.</span>9<span style={{color: '#f40009'}}>.</span>9<span style={{color: '#f40009'}}>.</span></div>
+                    <div className="yc" style={{color: "black", fontSize:"30px", marginTop:"78px"}}>&nbsp;&nbsp;1<span style={{color: '#f40009'}}>.</span>9<span style={{color: '#f40009'}}>.</span>9<span style={{color: '#f40009'}}>.</span>9<span style={{color: '#f40009'}}>.</span>
+                    </div>
+                    {/* <div className="notice"><a className="none" href={pdf} target="_blank" rel="noopener noreferrer">RESUME</a> &nbsp; <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats/">LINKEDIN</a></div> */}
                 </div>
             </div>
         </div>
