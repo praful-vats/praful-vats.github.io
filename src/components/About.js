@@ -37,7 +37,7 @@ function About() {
                         <br></br
                         >and Web Des<span style={{color: '#f40009'}}><b>i</b></span>gner with niche<br></br> 
                         inte<span style={{color: '#f40009'}}><b>r</b></span>est in Full Stack Dev<span style={{color: '#f40009'}}><b>e</b></span>lopment.<br></br>
-                        Absolute carnage in those bleep<br></br><span style={{color: '#f40009'}}><b>m</b></span>etavers<span style={{color: '#f40009'}}><b>e</b></span> of fucking innvovation.<br></br><br></br>
+                        Working towards carnage in<br></br><span style={{color: '#f40009'}}><b>m</b></span>etavers<span style={{color: '#f40009'}}><b>e</b></span> of creative innvovation.<br></br><br></br>
                         Assembling a tesseract of<br></br>
                         tools and technologies and<br></br> 
                         solving challenging problems<br></br> 

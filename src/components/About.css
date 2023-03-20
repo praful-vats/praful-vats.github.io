@@ -1,8 +1,8 @@
 body {
   background-color: #e2d8cf;
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
 }
 @media only screen and (min-width: 1274px) {
   .logo {
@@ -166,7 +166,4 @@ body {
     text-decoration: none;
     color:inherit;
   }
-  /* .yc {
-    /* margin-bottom: 2px; */
-  } */
 }
