@@ -1,4 +1,5 @@
 body {
+  margin-top: 4vh;
   background-color: #e2d8cf;
   font-family: 'Raleway', sans-serif;
   /* overflow-x: hidden;
@@ -125,44 +126,41 @@ body {
   } 
   .wing { 
     text-align: center;
-    margin-top: 25px;
+    font-size: 6vw;
+    margin-top: 2vh;
   } 
   .cont { 
-    display: none; 
+    text-align: left;
+    font-size: 6vw;
+    margin-top: 8vw;
+    margin-left: 5vw;
   } 
   .name { 
     display: none; 
   } 
-  .po { 
-    display: none; 
-  } 
-  .vl { 
-    display: none; 
+  .i { 
+    margin-left: 10vw;
+    margin-top: 8vw;
+    height: 300px!important;
+    width: 300px!important;
   } 
   .yc {
+    margin-top: 8vw!important;
+    margin-bottom: 8vw!important;
     text-align: center;
   }
   @media (prefers-reduced-motion: no-preference) {
     .spin {
-      animation: lspin infinite 20s linear;
-      font-size: 20px;
-      color: #F40009;
-    }
-  }
-  @keyframes lspin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
+      display: none;
     }
   }
 
   .cent {
-    margin-top: 150px;
+    margin-top: 10px;
     text-align: center;
   }
   .none {
     text-decoration: none;
     color:inherit;
   }
+}

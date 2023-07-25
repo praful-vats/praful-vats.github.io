@@ -33,11 +33,11 @@ function About() {
                         
                 <div className="vl four">
                     <div className="cont">
-                    <span style={{color: '#f40009'}}><b>H</b></span>ello, I’m a Software Developer 
+                    <a> Hello, I’m a Software Developer </a>
                         <br></br
-                        >and Web Des<span style={{color: '#f40009'}}><b>i</b></span>gner with niche<br></br> 
-                        inte<span style={{color: '#f40009'}}><b>r</b></span>est in Full Stack Dev<span style={{color: '#f40009'}}><b>e</b></span>lopment.<br></br>
-                        Working towards carnage in<br></br><span style={{color: '#f40009'}}><b>m</b></span>etavers<span style={{color: '#f40009'}}><b>e</b></span> of creative innvovation.<br></br><br></br>
+                        >and Web Designer with niche<br></br> 
+                        inte<span style={{color: '#f40009'}}><b>r</b></span>est in Full Stack Development.<br></br>
+                        Working towards carnage in metaverse of creative innvovation.<br></br><br></br>
                         Assembling a tesseract of<br></br>
                         tools and technologies and<br></br> 
                         solving challenging problems<br></br> 
@@ -50,7 +50,7 @@ function About() {
                 </div>
                 {/* <Parallax speed={-10}> */}
                 <div className="five po">
-                        <img src={xim} width={400} height={400} alt="pho"/>
+                        <img className="i" src={xim} width={400} height={400} alt="pho"/>
                         {/* <HoverImage  src={xim} hoverSrc={mix} alt="pho"/> */}
                         {/* <HoverImage src={yourFile} hoverSrc={yourFileHover} /> */}
                 </div>
