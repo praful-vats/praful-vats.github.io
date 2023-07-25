@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.470ba477.css",
-    "main.js": "/static/js/main.bd75b484.js",
+    "main.js": "/static/js/main.ef76e6d3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Praful_Vats.pdf": "/static/media/Praful_Vats.36be681a6c0ea9c8c7b3.pdf",
     "static/media/xim.jpeg": "/static/media/xim.af5ad76feb7ce036c253.jpeg",
     "index.html": "/index.html",
     "main.470ba477.css.map": "/static/css/main.470ba477.css.map",
-    "main.bd75b484.js.map": "/static/js/main.bd75b484.js.map",
+    "main.ef76e6d3.js.map": "/static/js/main.ef76e6d3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.470ba477.css",
-    "static/js/main.bd75b484.js"
+    "static/js/main.ef76e6d3.js"
   ]
 }
