@@ -30,14 +30,14 @@ function About() {
                 <div className="three wing">
                     <a className="none" href={pdf} target="_blank" rel="noopener noreferrer">RESUME</a> &nbsp; <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats/">LINKEDIN</a> 
                 </div>
-                        
+                      <div className="hl"></div>  
                 <div className="vl four">
                     <div className="cont">
                     <a> Hello, I’m a Software Developer </a>
                         <br></br
                         >and Web Designer with niche<br></br> 
-                        inte<span style={{color: '#f40009'}}><b>r</b></span>est in Full Stack Development.<br></br>
-                        Working towards carnage in metaverse of creative innvovation.<br></br><br></br>
+                        interest in Full Stack Development.<br></br>
+                        Working towards carnage in <br></br>metaverse of creative innvovation.<br></br><br></br>
                         Assembling a tesseract of<br></br>
                         tools and technologies and<br></br> 
                         solving challenging problems<br></br> 

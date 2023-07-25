@@ -126,12 +126,20 @@ body {
   } 
   .wing { 
     text-align: center;
-    font-size: 6vw;
+    font-size: 6.6vw;
     margin-top: 2vh;
   } 
+  
+  .hl {
+    border-bottom: 0.46875vw solid rgb(0, 0, 0);
+    border-width: thin;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 1.953125vw;
+  }
   .cont { 
     text-align: left;
-    font-size: 6vw;
+    font-size: 5.6vw;
     margin-top: 8vw;
     margin-left: 5vw;
   } 
