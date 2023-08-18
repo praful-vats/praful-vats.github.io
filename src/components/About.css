@@ -217,8 +217,15 @@ body {
     margin-left: 5vw;
   } 
   .name { 
-    display: none; 
+    transform: translateY(400px);
+    font-size: 7vw;
+    font-weight: bold;
+    margin-left: 8vw!important;
   } 
+
+  .resu {
+    font-size: 3.5vw;
+  }
   .i { 
     margin-left: 10vw;
     margin-top: 8vw;
@@ -226,9 +233,8 @@ body {
     width: 300px!important;
   } 
   .yc {
-    margin-top: 8vw!important;
-    margin-bottom: 8vw!important;
-    text-align: center;
+    margin: 8vw!important;
+    text-align: right;
   }
   @media (prefers-reduced-motion: no-preference) {
     .spin {
