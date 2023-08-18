@@ -28,7 +28,7 @@ function About() {
                     PORTFOLIO
                 </div>
                 <div className="three wing">
-                    <a className="none" href={pdf} target="_blank" rel="noopener noreferrer">RESUME</a> &nbsp; <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats/">LINKEDIN</a> 
+                    <a className="none" href="https://praful-vats.github.io/projects/" target="_blank" rel="noopener noreferrer">PROJECTS</a> &nbsp; <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats/">LINKEDIN</a> 
                 </div>
                         
                 <div className="vl four">
@@ -44,8 +44,16 @@ function About() {
                         with passion and determination.<br></br> 
                         To Infinity beyond Black Hole<span style={{color: '#f40009'}}><b>!</b></span>
                     </div>
+                    <div className="nmrs">
+                {/* <div className="name">
+                <span style={{color: '#f40009'}}>.</span> Praful Vats&nbsp;<a className="non" href={pdf} target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>&#x1F865;&nbsp;</a><a href={pdf} target="_blank" rel="noopener noreferrer" className="none resu" style={{color: '#f40009'}}>[resume]</a>
+                </div> */}
                 <div className="name">
-                <span style={{color: '#f40009'}}>.</span> Praful Vats
+                <span style={{color: '#f40009'}}>.</span> Praful Vats&nbsp;<a className="non resu" href={pdf} target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a>
+                </div>
+                {/* <div className="resu">
+                    RESUME<span style={{color: '#f40009'}}>&#x1F863;</span>
+                </div> */}
                 </div>
                 </div>
                 {/* <Parallax speed={-10}> */}
