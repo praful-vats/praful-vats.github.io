@@ -5,7 +5,7 @@ body {
   /* overflow-x: hidden;
   overflow-y: hidden; */
 }
-@media only screen and (min-width: 1274px) {
+@media only screen and (min-width: 1024px) {
   .logo {
     margin-left: 3.90625vw;
     margin-top: 1.953125vw;
@@ -197,7 +197,7 @@ body {
 }
 
 
-@media only screen and (max-width: 1274px) {
+@media only screen and (max-width: 1024px) {
   .logo { 
     display: none;  
   } 
