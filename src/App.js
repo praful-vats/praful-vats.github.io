@@ -1,46 +1,12 @@
-// import logo from './logo.svg';
 import './App.css';
-// import React from "react";
 import About from "./components/About";
-// import Navbar from "./components/Navbar";
-// import { Route, Routes } from 'react-router-dom'
-// import React, {useState, useEffect} from 'react';
-// import { useMediaQuery } from 'react-responsive'
+import Resume from './components/Resume';
 import AnimatedCursor from "react-animated-cursor"
-
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
-  // const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 })
-  // const isBigScreen = useMediaQuery({ minWidth: 1824 })
-  // const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 })
-  // const isPortrait = useMediaQuery({ orientation: 'portrait' })
-  // const isRetina = useMediaQuery({ minResolution: '2dppx' })
   return (
+  <Router>
     <main>
       <AnimatedCursor
       innerSize={10}
@@ -63,16 +29,12 @@ function App() {
         '.link'
       ]}
     />
-      <About />
-      {/* <Navbar /> */}
-
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
     </main>
-
-    // <Routes>
-    //   <Route path="/" element={<About />}>
-    //   </Route>
-    // </Routes>
-
+  </Router>
   );
 }
 
