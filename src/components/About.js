@@ -39,7 +39,7 @@ function About() {
                 <div className="name">
                 <span style={{color: '#f40009'}}>.</span> Praful Vats&nbsp;
                 {/* <a className="non resu" href={pdf} target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a> */}
-                <a className="non resu" href="https://drive.google.com/file/d/1pGDsGRpYt5_H1HLAs1jktgGAerC2H4mf/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a> 
+                <a className="non resu" href="https://drive.google.com/file/d/1kfYIdmBJR1-KX97zyfqSUtnyDHnwrlxu/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a> 
                 </div>
                 </div>
                 </div>
