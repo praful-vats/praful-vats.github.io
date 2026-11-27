@@ -8,7 +8,7 @@ import xim from './images/xim.jpeg';
 
 function About() {
     return (
-        <div>
+        <div className="portfolio">
             <div className="grid-container">
                 <div className="logo one">
                 <a href="/"><img src={pro} width={50} height={50} alt="logo"/></a>
@@ -17,7 +17,7 @@ function About() {
                     PORTFOLIO
                 </div>
                 <div className="three wing">
-                    <a className="none" href="https://praful-vats.github.io/projects/" target="_blank" rel="noopener noreferrer">PROJECTS</a> &nbsp; 
+                    <a className="none" href="https://praful-vats.github.io/projects/" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS</a> &nbsp; 
                     <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; 
                     <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats/">LINKEDIN</a> 
                 </div>
@@ -51,6 +51,7 @@ function About() {
                         <ReactCurvedText
                             width={380}
                             height={235}
+                            svgProps={{ viewBox: "0 0 380 235" }}
                             cx={190}
                             cy={120}
                             rx={100}
@@ -61,7 +62,7 @@ function About() {
                             textPathProps={{"fill": "#F40009"}}
                         />
                     </div>
-                    <div className="yc" style={{color: "black", fontSize:"30px", marginTop:"78px"}}>&nbsp;&nbsp;
+                    <div className="yc">&nbsp;&nbsp;
                         1<span style={{color: '#f40009'}}>.</span>
                         9<span style={{color: '#f40009'}}>.</span>
                         9<span style={{color: '#f40009'}}>.</span>

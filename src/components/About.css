@@ -2,202 +2,161 @@ body {
   margin-top: 4vh;
   background-color: #e2d8cf;
   font-family: 'Raleway', sans-serif;
-  /* overflow-x: hidden;
-  overflow-y: hidden; */
 }
-@media only screen and (min-width: 1024px) {
+
+@media screen and (min-width: 768px) and (not ((pointer: coarse) and (max-height: 500px))) {
+  body:has(.portfolio) {
+    margin-top: 0;
+  }
+
+  /* Fit the 1908 × 914 composition inside both viewport dimensions. */
+  .portfolio {
+    width: min(100%, calc(100svh * 1908 / 914));
+    min-height: 100svh;
+    margin-inline: auto;
+    display: grid;
+    align-content: center;
+    container-type: inline-size;
+  }
+
+  .grid-container {
+    box-sizing: border-box;
+    aspect-ratio: 1908 / 914;
+    padding: 3.83cqw 4.93cqw 4.4cqw 3.88cqw;
+    display: grid;
+    grid-template-columns: minmax(0, 558fr) minmax(0, 557fr) minmax(0, 625fr);
+    grid-template-rows: 6.92cqw 1fr;
+    grid-template-areas:
+      "logo heading links"
+      "intro status portrait";
+    font-family: 'Raleway', 'Segoe UI Light', sans-serif;
+    font-size: 1.953125cqw;
+    line-height: 1.18;
+  }
+
   .logo {
-    margin-left: 3.90625vw;
-    margin-top: 1.953125vw;
+    grid-area: logo;
+    align-self: start;
+    justify-self: start;
+  }
+
+  .logo img {
+    display: block;
+    width: 3.28cqw;
+    height: 3.28cqw;
   }
 
   .head {
-    margin-top: 1.5625vw;
-    font-size: 4.296875vw;
+    grid-area: heading;
+    margin-top: -0.45cqw;
     text-align: center;
+    font-size: 4.296875cqw;
   }
 
   .wing {
-    /* font-size: 25px; */
-    font-size:1.953125vw;
-    margin-top: 3.515625vw;
-    margin-left: 1.5625vw;
-  }
-
-  .hide {
-    display: none;
-  }
-      
-  .myDIV:hover + .hide {
-    display: block;
-    color: red;
-  }
-
-  .cont {
-    font-size: 1.953125vw;
-    margin-left: 0.78125vw;
+    grid-area: links;
+    margin: 1.56cqw 0 0 0.6cqw;
   }
 
   .vl {
-    border-left: 0.46875vw solid rgb(0, 0, 0);
-    border-width: thin;
-    height: 25vw;
-    margin-left: 3.90625vw;
-    margin-top: 3vw;
-    
+    grid-area: intro;
+    margin-top: 0.72cqw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cont {
+    border-left: thin solid black;
+    padding-left: 0.78cqw;
   }
 
   .name {
-    font-size: 1.953125vw;
-    margin-top: 4.296875vw;
-    /* margin-left: -3px; */
     font-weight: bold;
   }
 
   .resu {
-    font-size: 1.3vw;
+    font-size: 1.3cqw;
   }
 
-  .nmrs {
-    display: flex;
+  .po {
+    grid-area: portrait;
+    align-self: start;
   }
 
-  .one { grid-area: one; }
-  .two { grid-area: two; }
-  .three { grid-area: three; }
-  .four { grid-area: four; }
-  .five { grid-area: five; }
-  .six { grid-area: six;}
-  .seven {grid-area: seven;}
-
-  .grid-container {
-    display: grid;
-    grid-template-areas: 
-    'one .  two two three three'
-    'four four six six five five';
-    /* 'six six six six six six'; */
-    /* 'seven seven seven seven seven seven'; */
-    text-align: left;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+  .po img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
   }
 
-  .none {
-    text-decoration: none;
-    color: inherit;
-    position: relative; /* Ensure the pseudo-element is positioned relative to this element */
+  .cent {
+    grid-area: status;
+    padding-top: 3.52cqw;
+    text-align: center;
+    font-weight: bolder;
   }
-  
+
+  .spin {
+    width: 24.9cqw;
+    margin-inline: auto;
+    pointer-events: none;
+  }
+
+  .spin svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* Font size in the SVG's own viewBox coordinates. */
+    font-size: 20px;
+  }
+
+  .yc {
+    margin-top: 11.5cqw;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .spin {
+      animation: lspin 20s linear infinite;
+    }
+  }
+
+  @keyframes lspin {
+    to { transform: rotate(360deg); }
+  }
+
+  .none,
   .non {
     text-decoration: none;
     color: inherit;
-    position: relative; /* Ensure the pseudo-element is positioned relative to this element */
+    position: relative;
   }
+
+  .none::after,
   .non::after {
     content: "";
     position: absolute;
     width: 0;
     height: 1px;
-    background-color: black;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     transition: width 0.6s ease;
-  }
-  
-  .non:hover::after {
-    width: 100%;
-  }
-  
-  @keyframes borderAnimation {
-    0% {
-      width: 0;
-    }
-    /* 50% {
-      width: 100%;
-    } */
-    100% {
-      width: 100%;
-    }
-  }
-  
-  .non:hover::after {
-    animation: borderAnimation 0.3s linear;
-  }
-  
-  
-  .none::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 1px;
     background-color: #f40009;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.6s ease;
   }
-  
-  .none:hover::after {
+
+  .non::after {
+    background-color: black;
+  }
+
+  .none:hover::after,
+  .non:hover::after {
     width: 100%;
   }
-  
-  @keyframes borderAnimation {
-    0% {
-      width: 0;
-    }
-    /* 50% {
-      width: 100%;
-    } */
-    100% {
-      width: 100%;
-    }
-  }
-  
-  .none:hover::after {
-    animation: borderAnimation 0.3s linear;
-  }
-  
-
-  .cent {
-    text-align: center;
-    /* position: relative; */
-    /* margin: 200px 0 100px 0; */
-    margin: 5.859375vw 0 0 0px;
-    font-size: 20px;
-    font-weight: bolder; 
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .spin {
-      animation: lspin infinite 20s linear;
-    }
-  }
-  @keyframes lspin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .po {
-    text-align: center;
-    margin-top: 2.34375vw;
-    margin-right: 3.90625vw;
-  }
-  .notice {
-    display: none;
-  }
-  /* .yc {
-    color: "black";
-    font-size: "30px"; 
-    margin-top:"708px"!;
-  } */
 }
 
-
-@media only screen and (max-width: 1024px) {
+@media screen and (width < 768px), screen and (pointer: coarse) and (max-height: 500px) {
   .logo { 
     display: none;  
   } 
@@ -233,6 +192,8 @@ body {
     width: 300px!important;
   } 
   .yc {
+    color: black;
+    font-size: 30px;
     margin: 8vw!important;
     text-align: right;
   }
