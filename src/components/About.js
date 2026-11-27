@@ -17,7 +17,7 @@ function About() {
                     PORTFOLIO
                 </div>
                 <div className="three wing">
-                    <a className="none" href="https://praful-vats.github.io/projects/" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS</a> &nbsp; 
+                    <a className="none" href="https://praful-vats.github.io/projects/" target="_blank" rel="noopener noreferrer">PROJECTS</a> &nbsp; 
                     <a className="none" href="https://github.com/praful-vats/" target="_blank" rel="noopener noreferrer">GITHUB</a> &nbsp; 
                     <a className="none" rel=" noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/praful-vats/">LINKEDIN</a> 
                 </div>
@@ -39,7 +39,7 @@ function About() {
                 <div className="name">
                 <span style={{color: '#f40009'}}>.</span> Praful Vats&nbsp;
                 {/* <a className="non resu" href={pdf} target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a> */}
-                <a className="non resu" href="https://drive.google.com/file/d/1kfYIdmBJR1-KX97zyfqSUtnyDHnwrlxu/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a> 
+                {/* <a className="non resu" href="https://drive.google.com/file/d/1kfYIdmBJR1-KX97zyfqSUtnyDHnwrlxu/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a>  */}
                 </div>
                 </div>
                 </div>
@@ -63,10 +63,11 @@ function About() {
                         />
                     </div>
                     <div className="yc">&nbsp;&nbsp;
-                        1<span style={{color: '#f40009'}}>.</span>
+                        {/* 1<span style={{color: '#f40009'}}>.</span>
                         9<span style={{color: '#f40009'}}>.</span>
                         9<span style={{color: '#f40009'}}>.</span>
-                        9<span style={{color: '#f40009'}}>.</span>
+                        9<span style={{color: '#f40009'}}>.</span> */}
+                        <a className="non resu" href="https://drive.google.com/file/d/1kfYIdmBJR1-KX97zyfqSUtnyDHnwrlxu/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#f40009'}}>resume&#x1F865;</a> 
                     </div>
                 </div>
             </div>

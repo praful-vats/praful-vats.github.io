@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1710" height="45" viewBox="0 0 1710 45" role="img" aria-labelledby="title desc">
+  <title id="title">To Infinity beyond Black Hole</title>
+  <desc id="desc">A case-preserving, hand-reconstructed Ricetta-style wordmark. The letters f, y, b, e, d, and B are interpretations. The strokes are vector outlines independent of any installed font.</desc>
+  <g fill="none" stroke="#101010" stroke-width="1.7" stroke-linecap="butt">
+    <g data-word="To">
+      <path data-letter="T" d="M7 18H67M29.5 22.5H44.5M29.5 27H44.5"/>
+      <path data-letter="o" d="M79 18H119M69 22.5H79M119 22.5H129M79 27H119"/>
+    </g>
+    <g data-word="Infinity">
+      <path data-letter="I" d="M168 18H228M178 22.5H218M168 27H228"/>
+      <path data-letter="n" d="M230 22.5H237.5M249 22.5H273M237.5 27H249M273 27H290"/>
+      <path data-letter="f" d="M305 13.5H352M292 18H307M292 22.5H338M292 27H307"/>
+      <path data-letter="i" d="M354 18H414M364 22.5H404M354 27H414"/>
+      <path data-letter="n" d="M416 22.5H423.5M435 22.5H459M423.5 27H435M459 27H476"/>
+      <path data-letter="i" d="M478 18H538M488 22.5H528M478 27H538"/>
+      <path data-letter="t" d="M540 22.5H600M562.5 27H577.5"/>
+      <path data-letter="y" d="M602 22.5H617M647 22.5H662M617 27H647M632 31.5H647M607 36H632"/>
+    </g>
+    <g data-word="beyond">
+      <path data-letter="b" d="M701 13.5H711M701 18H745M701 22.5H711M745 22.5H761M701 27H745"/>
+      <path data-letter="e" d="M775 18H809M763 22.5H823M775 27H818"/>
+      <path data-letter="y" d="M825 22.5H840M870 22.5H885M840 27H870M855 31.5H870M830 36H855"/>
+      <path data-letter="o" d="M897 18H937M887 22.5H897M937 22.5H947M897 27H937"/>
+      <path data-letter="n" d="M949 22.5H956.5M968 22.5H992M956.5 27H968M992 27H1009"/>
+      <path data-letter="d" d="M1061 13.5H1071M1027 18H1071M1011 22.5H1027M1061 22.5H1071M1027 27H1071"/>
+    </g>
+    <g data-word="Black">
+      <path data-letter="B" d="M1110 9H1156M1110 13.5H1120M1156 13.5H1170M1110 18H1156M1110 22.5H1120M1156 22.5H1170M1110 27H1156"/>
+      <path data-letter="l" d="M1172 22.5H1187M1172 27H1232"/>
+      <path data-letter="a" d="M1250 22.5H1278M1234 27H1250M1278 27H1294"/>
+      <path data-letter="c" d="M1306 18H1356M1296 22.5H1306M1306 27H1356"/>
+      <path data-letter="k" d="M1358 18H1373M1388 18H1418M1358 22.5H1403M1358 27H1373M1388 27H1418"/>
+    </g>
+    <g data-word="Hole">
+      <path data-letter="H" d="M1457 18H1467M1507 18H1517M1457 22.5H1517M1457 27H1467M1507 27H1517"/>
+      <path data-letter="o" d="M1529 18H1569M1519 22.5H1529M1569 22.5H1579M1529 27H1569"/>
+      <path data-letter="l" d="M1581 22.5H1596M1581 27H1641"/>
+      <path data-letter="e" d="M1655 18H1689M1643 22.5H1703M1655 27H1698"/>
+    </g>
+  </g>
+</svg>

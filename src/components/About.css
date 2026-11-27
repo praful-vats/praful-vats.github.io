@@ -56,6 +56,7 @@ body {
   .wing {
     grid-area: links;
     margin: 1.56cqw 0 0 0.6cqw;
+    margin-left: 2.4cqw;
   }
 
   .vl {
