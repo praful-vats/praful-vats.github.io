@@ -44,7 +44,7 @@ function About() {
                 </div>
                 </div>
                 <div className="five po">
-                        <img className="i" src={xim} width={400} height={400} alt="pho"/>
+                        <img className="i" src={xim} width={500} height={500} alt="pho"/>
                 </div>
                 <div className="cent six">
                     <div className="spin">
